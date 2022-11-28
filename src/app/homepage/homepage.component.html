@@ -1,0 +1,18 @@
+<div style="text-align:center">
+    <h1>
+      {{title}}
+    </h1>
+    <input type="number" name="num1"[(ngModel)]="num1">
+    <br>
+    <br>
+    <input type="number" name="num2"[(ngModel)]="num2">
+    <br>
+    <br>
+    <button (click)="add()">ADD</button><br><br>
+    <button (click)="sub()">SUBTRACT</button><br><br>
+    <button (click)="mul()">MULTIPLY</button><br><br>
+    <button (click)="div()">DIVIDE</button>
+    <br><br>
+    <!-- <h3>RESULT: {{num3}}</h3> -->
+  </div>
+
